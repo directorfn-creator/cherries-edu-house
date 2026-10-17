@@ -66,23 +66,21 @@ export function Header() {
       </div>
 
       {/* Main navigation container */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-        {/* Official Cherries Logo */}
-        <a href="#" className="flex items-center gap-3 group focus:outline-hidden">
-          <div className="relative h-14 w-14 rounded-2xl p-1 bg-white shadow-xs border border-border/50 flex items-center justify-center overflow-hidden transition-transform group-hover:scale-105">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 sm:h-22 flex items-center justify-between">
+        {/* Official Cherries Logo (displays only the original logo artwork, no separate text, no circular border/bg) */}
+        <a
+          href="#"
+          className="flex items-center group focus:outline-hidden py-1 transition-transform hover:opacity-95"
+          aria-label="Cherries Edu House"
+        >
+          {/* Logo container: ~110-130px on mobile, ~160-180px on desktop */}
+          <div className="relative overflow-hidden flex items-center justify-center w-[120px] sm:w-[155px] md:w-[175px] h-13 sm:h-15">
             <img
               src={CHERRIES_LOGO_URL}
-              alt="Cherries Edu House Logo"
-              className="h-full w-full object-contain"
+              alt="Cherries Edu House"
+              className="w-full h-full object-contain scale-[1.78] sm:scale-[1.82] object-center select-none"
+              loading="eager"
             />
-          </div>
-          <div className="flex flex-col">
-            <span className="font-extrabold text-lg sm:text-xl tracking-tight text-foreground leading-tight">
-              Cherries Edu House
-            </span>
-            <span className="text-xs text-muted-foreground font-medium tracking-wide">
-              {isAr ? "كمبوند زايد ريجنسي" : "Zayed Regency • Nursery"}
-            </span>
           </div>
         </a>
 
@@ -135,7 +133,18 @@ export function Header() {
 
       {/* Mobile drop-down drawer */}
       {mobileMenuOpen && (
-        <div className="lg:hidden border-t border-border bg-card px-4 pt-3 pb-6 space-y-3 animate-in slide-in-from-top-4 duration-200">
+        <div className="lg:hidden border-t border-border bg-card px-4 pt-4 pb-6 space-y-4 animate-in slide-in-from-top-4 duration-200">
+          {/* Mobile branding preview */}
+          <div className="flex items-center justify-center py-1 border-b border-border/60 pb-3">
+            <div className="relative overflow-hidden flex items-center justify-center w-[130px] h-12">
+              <img
+                src={CHERRIES_LOGO_URL}
+                alt="Cherries Edu House"
+                className="w-full h-full object-contain scale-[1.75] object-center select-none"
+              />
+            </div>
+          </div>
+
           <div className="grid grid-cols-2 gap-2 pb-2 border-b border-border">
             {navLinks.map((link) => (
               <a

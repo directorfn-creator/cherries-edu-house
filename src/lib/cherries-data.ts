@@ -1,5 +1,5 @@
 export const CHERRIES_LOGO_URL =
-  "https://vibe.filesafe.space/1792242112629771035/attachments/5e470fec-87ac-405d-abb6-7fefb66bc99a.png";
+  "https://vibe.filesafe.space/1792242112629771035/attachments/171e3fe5-e824-4b1d-b56b-491663f0ddc4.png";
 export const CHERRIES_BANNER_URL =
   "https://vibe.filesafe.space/1792242112629771035/attachments/8caafc86-6740-452a-9790-5e37ca6b4d16.png";
 
