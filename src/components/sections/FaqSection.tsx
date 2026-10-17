@@ -19,9 +19,7 @@ export function FaqSection() {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground tracking-tight">
             {t.title}
           </h2>
-          <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-            {t.subtitle}
-          </p>
+          <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">{t.subtitle}</p>
         </div>
 
         <div className="space-y-3">

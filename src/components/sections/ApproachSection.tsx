@@ -18,15 +18,14 @@ export function ApproachSection() {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground tracking-tight">
             {t.title}
           </h2>
-          <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-            {t.subtitle}
-          </p>
+          <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">{t.subtitle}</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {t.points.map((pt, idx) => {
             const title = "title" in pt ? pt.title : "";
-            const description = "description" in pt ? pt.description : (pt as { desc?: string }).desc || "";
+            const description =
+              "description" in pt ? pt.description : (pt as { desc?: string }).desc || "";
             return (
               <div
                 key={idx}
@@ -38,13 +37,9 @@ export function ApproachSection() {
                   {idx === 2 && <Compass className="w-6 h-6" />}
                 </div>
 
-                <h3 className="text-xl font-bold text-foreground">
-                  {title}
-                </h3>
+                <h3 className="text-xl font-bold text-foreground">{title}</h3>
 
-                <p className="text-sm text-muted-foreground leading-relaxed">
-                  {description}
-                </p>
+                <p className="text-sm text-muted-foreground leading-relaxed">{description}</p>
               </div>
             );
           })}

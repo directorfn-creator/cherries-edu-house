@@ -108,11 +108,17 @@ export function TourBookingForm() {
       return;
     }
     if (!phone.trim()) {
-      setErrorMsg(isAr ? "يرجى كتابة رقم الهاتف للتواصل." : "Please enter your contact phone number.");
+      setErrorMsg(
+        isAr ? "يرجى كتابة رقم الهاتف للتواصل." : "Please enter your contact phone number.",
+      );
       return;
     }
     if (!consent) {
-      setErrorMsg(isAr ? "يرجى الموافقة على تواصل الحضانة معكم." : "Please consent to be contacted regarding this request.");
+      setErrorMsg(
+        isAr
+          ? "يرجى الموافقة على تواصل الحضانة معكم."
+          : "Please consent to be contacted regarding this request.",
+      );
       return;
     }
 
@@ -148,9 +154,7 @@ export function TourBookingForm() {
       projectId: "1792242112629771035",
       sessionId: getTrackingSessionId(),
       properties: {
-        deviceType: /Mobile|Android|iPhone/i.test(navigator.userAgent)
-          ? "mobile"
-          : "desktop",
+        deviceType: /Mobile|Android|iPhone/i.test(navigator.userAgent) ? "mobile" : "desktop",
         source: "ai_studio",
         projectId: "1792242112629771035",
         formName: "Cherries Nursery Tour Request",
@@ -167,11 +171,11 @@ export function TourBookingForm() {
           value: program || (isAr ? "غير محدد" : "Not specified"),
           label: isAr ? "الفصل المطلوب" : "Program of Interest",
         },
-        "EAW77Cfh47xjYFibRcZg": {
+        EAW77Cfh47xjYFibRcZg: {
           value: preferredDate || (isAr ? "غير محدد" : "Not specified"),
           label: isAr ? "تاريخ الزيارة المفضل" : "Preferred Visit Date",
         },
-        "pK1mwVu6RSkUt2I70Qdj": {
+        pK1mwVu6RSkUt2I70Qdj: {
           value: contactTime || (isAr ? "غير محدد" : "Not specified"),
           label: isAr ? "أفضل وقت للتواصل" : "Best Time to Contact",
         },
@@ -194,7 +198,6 @@ export function TourBookingForm() {
   return (
     <div id="tour" className="relative scroll-mt-24">
       <div className="bg-card border border-border/80 rounded-3xl p-6 sm:p-10 shadow-lg shadow-primary/5">
-        
         {/* Section Heading inside card */}
         <div className="max-w-2xl mb-8">
           <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-primary/20 text-foreground mb-3">
@@ -218,9 +221,7 @@ export function TourBookingForm() {
             <div className="w-14 h-14 mx-auto rounded-full bg-primary/20 flex items-center justify-center text-primary">
               <CheckCircle2 className="w-8 h-8" />
             </div>
-            <h3 className="text-xl font-bold text-foreground">
-              {t.form.successTitle}
-            </h3>
+            <h3 className="text-xl font-bold text-foreground">{t.form.successTitle}</h3>
             <p className="text-sm text-muted-foreground max-w-lg mx-auto leading-relaxed">
               {t.form.successMsg}
             </p>
@@ -364,7 +365,10 @@ export function TourBookingForm() {
                 onChange={(e) => setConsent(e.target.checked)}
                 className="mt-1 h-4 w-4 rounded border-input text-primary focus:ring-primary/40"
               />
-              <label htmlFor="tour-consent" className="text-xs text-muted-foreground leading-normal cursor-pointer">
+              <label
+                htmlFor="tour-consent"
+                className="text-xs text-muted-foreground leading-normal cursor-pointer"
+              >
                 {t.form.consentLabel}
               </label>
             </div>
@@ -377,7 +381,9 @@ export function TourBookingForm() {
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-primary text-primary-foreground font-bold text-sm hover:brightness-95 transition-all shadow-xs disabled:opacity-50"
               >
                 <Calendar className="w-4 h-4" />
-                <span>{isSubmitting ? (isAr ? "جاري الإرسال..." : "Submitting...") : t.form.submitBtn}</span>
+                <span>
+                  {isSubmitting ? (isAr ? "جاري الإرسال..." : "Submitting...") : t.form.submitBtn}
+                </span>
               </button>
 
               <a

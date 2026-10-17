@@ -11,7 +11,6 @@ export function Footer() {
     <footer className="border-t border-border bg-card/60 pt-16 pb-12 text-foreground transition-colors">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-border/70">
-          
           {/* Logo & Tagline column */}
           <div className="lg:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
@@ -55,32 +54,58 @@ export function Footer() {
             </h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors">
+                <a
+                  href="#about"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   {t.nav.about}
                 </a>
               </li>
               <li>
-                <a href="#classes" className="text-muted-foreground hover:text-foreground transition-colors">
+                <a
+                  href="#classes"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   {t.nav.classes}
                 </a>
               </li>
               <li>
-                <a href="#environment" className="text-muted-foreground hover:text-foreground transition-colors">
+                <a
+                  href="#environment"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   {t.nav.environment}
                 </a>
               </li>
               <li>
-                <a href="#approach" className="text-muted-foreground hover:text-foreground transition-colors">
+                <a
+                  href="#gallery"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  {t.nav.gallery}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#approach"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   {t.nav.approach}
                 </a>
               </li>
               <li>
-                <a href="#team" className="text-muted-foreground hover:text-foreground transition-colors">
+                <a
+                  href="#team"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   {t.nav.team}
                 </a>
               </li>
               <li>
-                <a href="#faqs" className="text-muted-foreground hover:text-foreground transition-colors">
+                <a
+                  href="#faqs"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   {t.nav.faqs}
                 </a>
               </li>
@@ -101,7 +126,11 @@ export function Footer() {
 
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-primary shrink-0" />
-                <a href={CHERRIES_INFO.phoneCall} className="hover:text-foreground font-semibold" dir="ltr">
+                <a
+                  href={CHERRIES_INFO.phoneCall}
+                  className="hover:text-foreground font-semibold"
+                  dir="ltr"
+                >
                   {CHERRIES_INFO.phoneDisplay}
                 </a>
               </div>
@@ -140,7 +169,9 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
-          <p>© {new Date().getFullYear()} Cherries Edu House. {t.footer.rights}</p>
+          <p>
+            © {new Date().getFullYear()} Cherries Edu House. {t.footer.rights}
+          </p>
           <p>{t.footer.disclaimer}</p>
         </div>
       </div>

@@ -11,7 +11,6 @@ export function LocationSection() {
     <section id="location" className="py-16 sm:py-24 scroll-mt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-          
           <div className="lg:col-span-6 space-y-6">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-primary/20 text-foreground">
               <MapPin className="w-3.5 h-3.5 text-primary" />
@@ -95,9 +94,7 @@ export function LocationSection() {
                 <div className="w-12 h-12 mx-auto rounded-full bg-primary/20 flex items-center justify-center text-primary">
                   <MapPin className="w-6 h-6" />
                 </div>
-                <h3 className="font-bold text-lg text-foreground">
-                  Zayed Regency Compound
-                </h3>
+                <h3 className="font-bold text-lg text-foreground">Zayed Regency Compound</h3>
                 <p className="text-xs text-muted-foreground max-w-sm mx-auto">
                   {isAr
                     ? "كمبوند زايد ريجنسي، الشيخ زايد الثانية، محافظة الجيزة، مصر."
@@ -128,7 +125,6 @@ export function LocationSection() {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>

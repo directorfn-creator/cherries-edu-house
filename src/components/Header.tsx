@@ -13,6 +13,7 @@ export function Header() {
     { href: "#about", label: t.nav.about },
     { href: "#classes", label: t.nav.classes },
     { href: "#environment", label: t.nav.environment },
+    { href: "#gallery", label: t.nav.gallery },
     { href: "#approach", label: t.nav.approach },
     { href: "#team", label: t.nav.team },
     { href: "#faqs", label: t.nav.faqs },

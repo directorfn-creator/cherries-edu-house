@@ -19,9 +19,7 @@ export function ClassesSection() {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground tracking-tight">
             {t.title}
           </h2>
-          <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-            {t.subtitle}
-          </p>
+          <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">{t.subtitle}</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -35,18 +33,12 @@ export function ClassesSection() {
                   <span className="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-secondary text-secondary-foreground border border-border">
                     {cls.badge}
                   </span>
-                  <span className="text-xs font-bold text-primary">
-                    {cls.teacher}
-                  </span>
+                  <span className="text-xs font-bold text-primary">{cls.teacher}</span>
                 </div>
 
-                <h3 className="text-2xl font-black text-foreground">
-                  {cls.name}
-                </h3>
+                <h3 className="text-2xl font-black text-foreground">{cls.name}</h3>
 
-                <p className="text-sm text-muted-foreground leading-relaxed">
-                  {cls.description}
-                </p>
+                <p className="text-sm text-muted-foreground leading-relaxed">{cls.description}</p>
 
                 <div className="pt-2 space-y-2">
                   <span className="block text-xs font-bold uppercase text-foreground/80 tracking-wider">

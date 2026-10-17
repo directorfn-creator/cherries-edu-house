@@ -6,6 +6,7 @@ import { HeroSection } from "@/components/sections/HeroSection";
 import { StrengthsSection } from "@/components/sections/StrengthsSection";
 import { ClassesSection } from "@/components/sections/ClassesSection";
 import { SpacesSection } from "@/components/sections/SpacesSection";
+import { GallerySection } from "@/components/sections/GallerySection";
 import { ApproachSection } from "@/components/sections/ApproachSection";
 import { TeamSection } from "@/components/sections/TeamSection";
 import { FaqSection } from "@/components/sections/FaqSection";
@@ -58,6 +59,7 @@ function CherriesEduHousePage() {
         <StrengthsSection />
         <ClassesSection />
         <SpacesSection />
+        <GallerySection />
         <ApproachSection />
         <TeamSection />
 

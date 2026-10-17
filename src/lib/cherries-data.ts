@@ -1,11 +1,25 @@
-export const CHERRIES_LOGO_URL = "https://vibe.filesafe.space/1792242112629771035/attachments/5e470fec-87ac-405d-abb6-7fefb66bc99a.png";
-export const CHERRIES_BANNER_URL = "https://vibe.filesafe.space/1792242112629771035/attachments/8caafc86-6740-452a-9790-5e37ca6b4d16.png";
+export const CHERRIES_LOGO_URL =
+  "https://vibe.filesafe.space/1792242112629771035/attachments/5e470fec-87ac-405d-abb6-7fefb66bc99a.png";
+export const CHERRIES_BANNER_URL =
+  "https://vibe.filesafe.space/1792242112629771035/attachments/8caafc86-6740-452a-9790-5e37ca6b4d16.png";
 
-export const CHERRIES_PHOTOS = {
-  heroClassroom: "https://vibe.filesafe.space/1792242112629771035/assets/1c6a1557-6bb3-49bf-8573-a54ad3f6f31e.png",
-  gardenPlayground: "https://vibe.filesafe.space/1792242112629771035/assets/0b857067-c894-4d02-9afe-38176d02dce7.png",
-  sensoryCorner: "https://vibe.filesafe.space/1792242112629771035/assets/0e7b06b0-386d-4764-9386-5d3230639d57.png",
-  artAtelier: "https://vibe.filesafe.space/1792242112629771035/assets/a9f5e461-b607-48a7-93c7-10ee588c907b.png",
+// Real nursery photographs supplied directly by Cherries Edu House
+export const REAL_CHERRIES_PHOTOS = {
+  // Image 1: Team gathering outdoors in sunny Zayed Regency garden
+  teamGathering:
+    "https://vibe.filesafe.space/1792242112629771035/attachments/2915d226-4256-4c95-9fc8-2c8f6808ac4c.jpg",
+  // Image 2: Children joyfully playing on yellow seesaw in outdoor green playground
+  outdoorPlay:
+    "https://vibe.filesafe.space/1792242112629771035/attachments/3fc865f8-a830-4ee3-bc7b-d8812f356e9d.jpg",
+  // Image 3: Toddler smiling warmly in nursery classroom setting
+  toddlerSmile:
+    "https://vibe.filesafe.space/1792242112629771035/attachments/248da54a-d275-440c-bb91-acd0b9e0dce9.jpg",
+  // Image 4: Two cheerful children with official Cherries Edu House branding on classroom chairs
+  classroomActivity:
+    "https://vibe.filesafe.space/1792242112629771035/attachments/1a8d745a-1fab-4987-99bb-9f6f322136ed.jpg",
+  // Image 5: Learning corner / focus activity room with soft padded wall corner and learning charts
+  learningCorner:
+    "https://vibe.filesafe.space/1792242112629771035/attachments/ac0246ae-5975-4b0b-b8c2-1306fdef099b.jpg",
 };
 
 export const CHERRIES_INFO = {
@@ -23,7 +37,8 @@ export const CHERRIES_CONTENT = {
   en: {
     nav: {
       about: "About Cherries",
-      environment: "Environment",
+      environment: "Environment & Spaces",
+      gallery: "Real Gallery",
       classes: "Classes",
       approach: "Educational Approach",
       team: "Teaching Team",
@@ -36,7 +51,8 @@ export const CHERRIES_CONTENT = {
     hero: {
       tag: "Cherries Edu House • Zayed Regency",
       headline: "Little Discoveries. Meaningful Beginnings.",
-      supporting: "Get to know Cherries Edu House in Zayed Regency, explore our nursery, and meet the people behind your child’s next chapter.",
+      supporting:
+        "Get to know Cherries Edu House in Zayed Regency, explore our nursery, and meet the people behind your child’s next chapter.",
       bookTourCta: "Book a Nursery Tour",
       chatCta: "Chat on WhatsApp",
       exploreCta: "Explore Our Nursery",
@@ -45,11 +61,13 @@ export const CHERRIES_CONTENT = {
         { label: "Confirmed Classes", value: "Infants, Juniors & Preschool" },
         { label: "Direct Contact", value: "012 77604444" },
       ],
+      heroImageCaption: "Authentic moments from daily nursery life at Cherries Edu House",
     },
     strengths: {
       tag: "Why Cherries Edu House",
       title: "Thoughtful Care in an Inspiring Nursery Setting",
-      subtitle: "Every detail at Cherries is shaped to provide gentle security, purposeful exploration, and trusted partnership with families.",
+      subtitle:
+        "Every detail at Cherries is shaped to provide gentle security, purposeful exploration, and trusted partnership with families.",
       items: [
         {
           title: "Peaceful & Safe Setting",
@@ -57,7 +75,7 @@ export const CHERRIES_CONTENT = {
         },
         {
           title: "Purpose-Built Indoor & Outdoor Spaces",
-          desc: "Sunlit classrooms, tactile wooden sensory resources, and dedicated natural outdoor play spaces planned for safe motor growth.",
+          desc: "Sunlit classrooms, tactile sensory resources, and dedicated natural outdoor play spaces planned for safe motor growth.",
         },
         {
           title: "Dedicated Teaching Team",
@@ -72,92 +90,166 @@ export const CHERRIES_CONTENT = {
     approach: {
       tag: "Educational Philosophy",
       title: "Our Educational Approach",
-      subtitle: "Grounding early years learning in authentic wonder, curiosity, and respect for every child's individual pace.",
+      subtitle:
+        "Grounding early years learning in authentic wonder, curiosity, and respect for every child's individual pace.",
       points: [
         {
           title: "Child-Centered Discovery",
-          description: "Children learn best when they touch, build, test, and imagine. Our spaces encourage independent choices within gentle, supportive boundaries.",
+          description:
+            "Children learn best when they touch, build, test, and imagine. Our spaces encourage independent choices within gentle, supportive boundaries.",
         },
         {
           title: "Sensory & Nature-Inspired Learning",
-          description: "Tactile materials, natural wooden textures, botanical appreciation, and outdoor time cultivate curiosity and body awareness naturally.",
+          description:
+            "Tactile materials, soft corner protection, botanical appreciation, and outdoor time cultivate curiosity and body awareness naturally.",
         },
         {
           title: "Language & Social Foundation",
-          description: "Rich bilingual communication, interactive storytelling, song, and cooperative group play cultivate confident, empathetic young learners.",
+          description:
+            "Rich bilingual communication, interactive storytelling, song, and cooperative group play cultivate confident, empathetic young learners.",
         },
       ],
     },
     classes: {
       tag: "Our Programs",
       title: "Confirmed Classes",
-      subtitle: "Tailored environments and responsive care designed specifically for each stage of early childhood development.",
+      subtitle:
+        "Tailored environments and responsive care designed specifically for each stage of early childhood development.",
       items: [
         {
           name: "Infants",
           badge: "Classroom 1",
-          description: "A calm, loving sanctuary designed for gentle sensory exploration, responsive physical care, motor coordination, and deep emotional security.",
+          description:
+            "A calm, loving sanctuary designed for gentle sensory exploration, responsive physical care, motor coordination, and deep emotional security.",
           teacher: "Led by Ms. Samar",
-          focus: ["Gentle sensory stimulation", "Motor coordination & mobility", "Nurturing emotional bonding"],
+          focus: [
+            "Gentle sensory stimulation",
+            "Motor coordination & mobility",
+            "Nurturing emotional bonding",
+          ],
         },
         {
           name: "Juniors",
           badge: "Classroom 2",
-          description: "An engaging setting encouraging curious toddlers to test ideas, develop communicative language, build motor autonomy, and practice collaborative play.",
+          description:
+            "An engaging setting encouraging curious toddlers to test ideas, develop communicative language, build motor autonomy, and practice collaborative play.",
           teacher: "Led by Ms. Lina",
-          focus: ["Active physical movement", "Language development & expression", "Sensory & artistic discovery"],
+          focus: [
+            "Active physical movement",
+            "Language development & expression",
+            "Sensory & collaborative play",
+          ],
         },
         {
           name: "Preschool",
           badge: "Classroom 3",
-          description: "An inspiring atmosphere cultivating independence, inquiry, foundational social cooperation, and cognitive readiness for their next schooling milestones.",
+          description:
+            "An inspiring atmosphere cultivating independence, inquiry, foundational social cooperation, and cognitive readiness for their next schooling milestones.",
           teacher: "Led by Ms. Reham",
-          focus: ["Early problem solving & logic", "Social confidence & empathy", "Creative expression & bilingual speech"],
+          focus: [
+            "Early problem solving & logic",
+            "Social confidence & empathy",
+            "Creative expression & bilingual speech",
+          ],
         },
       ],
     },
     spaces: {
       tag: "Nursery Environment",
       title: "Natural Indoor & Outdoor Spaces",
-      subtitle: "Take a peek inside our sunlit rooms, nature play garden, and specialized learning corners.",
+      subtitle:
+        "Authentic photographs from our sunlit rooms, protected play gardens, and developmental learning corners.",
       items: [
         {
-          title: "Sunlit Learning Classrooms",
-          category: "Indoor Environment",
-          image: CHERRIES_PHOTOS.heroClassroom,
-          desc: "Airy spaces with child-height shelving and wooden materials that encourage autonomy and focused engagement.",
+          title: "Joyful Classroom Activity & Friends",
+          category: "Indoor Classrooms",
+          image: REAL_CHERRIES_PHOTOS.classroomActivity,
+          desc: "Comfortable, engaging classrooms with child-sized seating and official Cherries learning environments.",
+          alt: "Cherries Edu House indoor classroom with happy children seated on yellow chairs",
         },
         {
-          title: "Nature & Greenery Garden",
-          category: "Outdoor Space",
-          image: CHERRIES_PHOTOS.gardenPlayground,
-          desc: "Fresh-air outdoor play area with safe grass, wooden climbing elements, and sensory garden activities.",
+          title: "Outdoor Garden Play & Movement",
+          category: "Outdoor Spaces",
+          image: REAL_CHERRIES_PHOTOS.outdoorPlay,
+          desc: "Spacious green lawn and safe play equipment in the fresh air of Zayed Regency compound.",
+          alt: "Children enjoying outdoor physical play on a seesaw in the Cherries garden",
         },
         {
-          title: "Tactile Sensory Discovery Corner",
-          category: "Developmental Corner",
-          image: CHERRIES_PHOTOS.sensoryCorner,
-          desc: "Dedicated cozy nook for tactile exploration, fine motor practice, and peaceful quiet book moments.",
+          title: "Gentle Developmental Exploration",
+          category: "Sensory & Nurturing",
+          image: REAL_CHERRIES_PHOTOS.toddlerSmile,
+          desc: "Calm, welcoming spaces where our youngest learners feel safe, loved, and confident to explore.",
+          alt: "Young child smiling happily during indoor nursery activities",
         },
         {
-          title: "Creative Art & Craft Atelier",
-          category: "Creative Corner",
-          image: CHERRIES_PHOTOS.artAtelier,
-          desc: "Organic materials and child-safe creative mediums where little hands freely express their creativity.",
+          title: "Focus & Early Learning Corners",
+          category: "Learning Environment",
+          image: REAL_CHERRIES_PHOTOS.learningCorner,
+          desc: "Thoughtfully prepared learning corners with soft cushioned safety boundaries, numbers, and shapes.",
+          alt: "Cherries learning corner with padded protective boundary and educational charts",
+        },
+      ],
+    },
+    gallery: {
+      tag: "Real Cherries Gallery",
+      title: "A Glimpse into Everyday Life at Cherries",
+      subtitle:
+        "Unfiltered, real photographs showing our children learning, playing, and thriving together.",
+      categories: ["All", "Classrooms", "Outdoor Play", "Team"],
+      clickToEnlarge: "Click any photograph to view in full detail",
+      items: [
+        {
+          title: "Daily Joy & Friendship",
+          category: "Classrooms",
+          image: REAL_CHERRIES_PHOTOS.classroomActivity,
+          alt: "Children laughing together in Cherries Edu House classroom",
+          caption: "Bilingual social interactions and joyful friendships in our sunlit classrooms.",
+        },
+        {
+          title: "Fresh Air & Gross Motor Play",
+          category: "Outdoor Play",
+          image: REAL_CHERRIES_PHOTOS.outdoorPlay,
+          alt: "Outdoor playground with bright yellow ride-on toys and green grass",
+          caption: "Safe outdoor lawn play inside the peaceful Zayed Regency Compound.",
+        },
+        {
+          title: "Warm Emotional Security",
+          category: "Classrooms",
+          image: REAL_CHERRIES_PHOTOS.toddlerSmile,
+          alt: "Smiling toddler at Cherries Edu House",
+          caption: "Individual attention and gentle encouragement for every child's pace.",
+        },
+        {
+          title: "Educators Team Celebration",
+          category: "Team",
+          image: REAL_CHERRIES_PHOTOS.teamGathering,
+          alt: "Cherries Edu House team gathered in outdoor garden",
+          caption: "Our passionate, caring educators gathered in the outdoor garden.",
+        },
+        {
+          title: "Structured & Safe Learning Environment",
+          category: "Classrooms",
+          image: REAL_CHERRIES_PHOTOS.learningCorner,
+          alt: "Padded focus corner with counting and shape posters",
+          caption: "Child-safe protective cushioning and early numeracy and literacy materials.",
         },
       ],
     },
     team: {
       tag: "Educators & Leaders",
       title: "Meet Our Confirmed Teaching Team",
-      subtitle: "Passionate, caring educators who bring patience, warmth, and genuine commitment to your child's daily experience.",
-      note: "Assigning portraits only using verified references. Management and additional staff will be introduced as confirmed.",
+      subtitle:
+        "Passionate, caring educators who bring patience, warmth, and genuine commitment to your child's daily experience.",
+      note: "Portraits are assigned using confirmed reference photographs. Management titles are presented strictly as provided.",
+      teamPhotoTitle: "Our Educators Together in Zayed Regency",
+      teamPhotoDesc:
+        "Real photograph of the Cherries Edu House team gathered in our sunny outdoor garden.",
       members: [
         {
           name: "Ms. Salma",
           role: "Head of Teaching Department",
           initials: "MS",
-          desc: "Overseeing the educational quality, teacher mentoring, and harmonious daily learning rhythm across all Cherries classrooms.",
+          desc: "Overseeing educational quality, teacher mentoring, and harmonious daily learning rhythm across all Cherries classrooms.",
         },
         {
           name: "Ms. Reham",
@@ -213,8 +305,10 @@ export const CHERRIES_CONTENT = {
     tour: {
       tag: "Personal Invitation",
       title: "Request a Nursery Tour",
-      subtitle: "We would love to welcome you and your child to experience Cherries Edu House firsthand.",
-      notice: "Please note: Requested visit times are subject to individual confirmation by our nursery administration team.",
+      subtitle:
+        "We would love to welcome you and your child to experience Cherries Edu House firsthand.",
+      notice:
+        "Please note: Requested visit times are subject to individual confirmation by our nursery administration team.",
       form: {
         nameLabel: "Parent or Guardian Name *",
         namePlaceholder: "e.g. Sarah Mansour",
@@ -228,12 +322,15 @@ export const CHERRIES_CONTENT = {
         timePlaceholder: "e.g. Mornings, After 4 PM",
         messageLabel: "Message or Questions (Optional)",
         messagePlaceholder: "Tell us a bit about your child, age, or any specific questions...",
-        consentLabel: "I consent to Cherries Edu House contacting me regarding this nursery tour request.",
+        consentLabel:
+          "I consent to Cherries Edu House contacting me regarding this nursery tour request.",
         submitBtn: "Submit Tour Request",
         whatsappInstant: "Or Chat Directly on WhatsApp",
         successTitle: "Tour Request Received!",
-        successMsg: "Thank you for reaching out to Cherries Edu House. Our administration team will contact you shortly to confirm your visit date and time.",
-        whatsappRedirectNote: "Want an instant reply? Tap below to open our WhatsApp chat directly with your inquiry details.",
+        successMsg:
+          "Thank you for reaching out to Cherries Edu House. Our administration team will contact you shortly to confirm your visit date and time.",
+        whatsappRedirectNote:
+          "Want an instant reply? Tap below to open our WhatsApp chat directly with your inquiry details.",
       },
     },
     location: {
@@ -250,14 +347,16 @@ export const CHERRIES_CONTENT = {
     },
     footer: {
       tagline: "Little Discoveries. Meaningful Beginnings in Zayed Regency.",
-      disclaimer: "Official website for Cherries Edu House, Zayed Regency Compound, Sheikh Zayed, Egypt.",
+      disclaimer:
+        "Official website for Cherries Edu House, Zayed Regency Compound, Sheikh Zayed, Egypt.",
       rights: "All rights reserved.",
     },
   },
   ar: {
     nav: {
       about: "عن تشيريز",
-      environment: "بيئة الحضانة",
+      environment: "بيئة الحضانة والمساحات",
+      gallery: "صور الحضانة الحقيقية",
       classes: "الفصول",
       approach: "نهجنا التعليمي",
       team: "فريق التعليم",
@@ -270,7 +369,8 @@ export const CHERRIES_CONTENT = {
     hero: {
       tag: "Cherries Edu House • زايد ريجنسي",
       headline: "اكتشافات صغيرة… وبدايات لها معنى.",
-      supporting: "اتعرّف على Cherries Edu House في زايد ريجنسي، واكتشف الحضانة وقابل الفريق اللي هيشارك طفلك خطواته الجاية.",
+      supporting:
+        "اتعرّف على Cherries Edu House في زايد ريجنسي، واكتشف الحضانة وقابل الفريق اللي هيشارك طفلك خطواته الجاية.",
       bookTourCta: "احجز زيارة للحضانة",
       chatCta: "تواصل عبر واتساب",
       exploreCta: "استكشف حضانتنا",
@@ -279,11 +379,13 @@ export const CHERRIES_CONTENT = {
         { label: "فصولنا المعتمدة", value: "Infants و Juniors و Preschool" },
         { label: "التواصل المباشر", value: "012 77604444" },
       ],
+      heroImageCaption: "لحظات حقيقية من يوميات أطفالنا في حضانة Cherries Edu House",
     },
     strengths: {
       tag: "لماذا Cherries Edu House؟",
       title: "رعاية واعية في بيئة تعليمية ملهمة",
-      subtitle: "كل ركن وتفصيلة في تشيريز صُممت لتوفر لطفلك الأمان والراحة، وفرص الاستكشاف اليومي في شراكة حقيقية مع أسرتك.",
+      subtitle:
+        "كل ركن وتفصيلة في تشيريز صُممت لتوفر لطفلك الأمان والراحة، وفرص الاستكشاف اليومي في شراكة حقيقية مع أسرتك.",
       items: [
         {
           title: "موقع هادئ وآمن تماماً",
@@ -291,7 +393,7 @@ export const CHERRIES_CONTENT = {
         },
         {
           title: "مساحات داخلية وخارجية مجهزة بعناية",
-          desc: "فصول مشمسة ومواد طبيعية وخشبية تحفز الحواس، ومساحات لعب خارجية آمنة تساعد على التطور الحركي السليم.",
+          desc: "فصول مشمسة ومواد حسية آمنة، ومساحات لعب خارجية خضراء تدعم التطور الحركي السليم.",
         },
         {
           title: "فريق تعليمي متخصص ومحب للأطفال",
@@ -314,7 +416,7 @@ export const CHERRIES_CONTENT = {
         },
         {
           title: "التعلم الحسي والمستوحى من الطبيعة",
-          desc: "الخامات الطبيعية والملمس الخشبي والأنشطة الخارجية تنمّي الحواس وتغرس تقدير الطبيعة والوعي الجسدي لدى الطفل.",
+          desc: "الخامات الطبيعية والحماية المبطنة والأنشطة الخارجية تنمّي الحواس وتغرس حب الحركة والوعي الجسدي لدى الطفل.",
         },
         {
           title: "بناء اللغة والتواصل الاجتماعي",
@@ -330,54 +432,109 @@ export const CHERRIES_CONTENT = {
         {
           name: "Infants",
           badge: "الفصل الأول",
-          description: "ملاذ هادئ ودافئ للرضع مصمم للاستكشاف الحسي اللطيف، والتطور الحركي، والشعور العميق بالأمان والحنان.",
+          description:
+            "ملاذ هادئ ودافئ للرضع مصمم للاستكشاف الحسي اللطيف، والتطور الحركي، والشعور العميق بالأمان والحنان.",
           teacher: "بإشراف ميس سمر",
           focus: ["تنشيط الحواس بلطف", "التطور الحركي والتوازن", "الرعاية العاطفية الفردية"],
         },
         {
           name: "Juniors",
           badge: "الفصل الثاني",
-          description: "بيئة حيوية تشجع الأطفال الصغار على استكشاف أفكارهم، وتطوير مهاراتهم اللغوية، واكتساب الاستقلالية واللعب التشاركي.",
+          description:
+            "بيئة حيوية تشجع الأطفال الصغار على استكشاف أفكارهم، وتطوير مهاراتهم اللغوية، واكتساب الاستقلالية واللعب التشاركي.",
           teacher: "بإشراف ميس لينا",
-          focus: ["الحركة والنشاط البدني", "التعبير اللغوي والتواصل", "الأنشطة الحسية والفنية"],
+          focus: ["الحركة والنشاط البدني", "التعبير اللغوي والتواصل", "الأنشطة الحسية والتشاركية"],
         },
         {
           name: "Preschool",
           badge: "الفصل الثالث",
-          description: "أجواء ملهمة تبني الاستقلالية وحب المعرفة والتعاون الجماعي والجاهزية الإدراكية لمرحلة المدرسة.",
+          description:
+            "أجواء ملهمة تبني الاستقلالية وحب المعرفة والتعاون الجماعي والجاهزية الإدراكية لمرحلة المدرسة.",
           teacher: "بإشراف ميس ريهام",
-          focus: ["التفكير المنطقي وحل المشكلات", "الثقة الاجتماعية والتعاطف", "التعبير الإبداعي واللغة المزدوجة"],
+          focus: [
+            "التفكير المنطقي وحل المشكلات",
+            "الثقة الاجتماعية والتعاطف",
+            "التعبير الإبداعي واللغة المزدوجة",
+          ],
         },
       ],
     },
     spaces: {
       tag: "بيئة الحضانة",
       title: "مساحات طبيعية داخلية وخارجية",
-      subtitle: "جولة داخل فصولنا المضيئة بنور الشمس وحديقتنا الطبيعية وأركان التعلم المتخصصة.",
+      subtitle: "صور حقيقية توضح فصولنا المشرقة ومساحات اللعب الآمنة وأركان التعلم المتخصصة.",
       items: [
         {
-          title: "فصول تعليمية غنية بضوء الشمس",
+          title: "أنشطة الفصول وتفاعل الأطفال",
           category: "البيئة الداخلية",
-          image: CHERRIES_PHOTOS.heroClassroom,
-          desc: "أرفف خشبية بارتفاع الأطفال ومواد تعليمية طبيعية تدعم الاستقلالية والتركيز والحرية المسؤولة.",
+          image: REAL_CHERRIES_PHOTOS.classroomActivity,
+          desc: "فصول مريحة ومبهجة ومقاعد ملونة مصممة لتفاعل الأطفال الإيجابي وتنمية الصداقات.",
+          alt: "أطفال حضانة تشيريز يضحكون في الفصل الدراسي على كراسي صفراء مبهجة",
         },
         {
           title: "حديقة اللعب في الهواء الطلق",
           category: "المساحات الخارجية",
-          image: CHERRIES_PHOTOS.gardenPlayground,
-          desc: "مساحة خضراء مجهزة بألعاب تسلق خشبية آمنة وأنشطة حسية منعشة في الهواء النقي.",
+          image: REAL_CHERRIES_PHOTOS.outdoorPlay,
+          desc: "مساحة خضراء مجهزة بألعاب حركية آمنة في هواء كمبوند زايد ريجنسي النقي.",
+          alt: "أطفال يمارسون اللعب الحركي في حديقة الحضانة الخضراء",
         },
         {
-          title: "ركن الاكتشاف الحسي الهادئ",
-          category: "أركان التطوير",
-          image: CHERRIES_PHOTOS.sensoryCorner,
-          desc: "مساحة مريحة وممتعة لتطوير المهارات الحركية الدقيقة واستكشاف القصص والملمس المتنوع.",
+          title: "استكشاف لطيف وأمان عاطفي",
+          category: "الرعاية والنمو الحسي",
+          image: REAL_CHERRIES_PHOTOS.toddlerSmile,
+          desc: "بيئة مرحبة تمنح أطفالنا الشعور بالأمان والحب ليتعلموا وينمو بكل ثقة وهدوء.",
+          alt: "ابتسامة طفل أثناء الأنشطة اليومية في حضانة تشيريز",
         },
         {
-          title: "أتيليه الفنون والأشغال الإبداعية",
-          category: "الأركان الإبداعية",
-          image: CHERRIES_PHOTOS.artAtelier,
-          desc: "ألوان وخامات طبيعية آمنة تمنح أيدي الأطفال الصغيرة حرية الابتكار والتعبير الفني.",
+          title: "ركن التركيز والتعلم المبكر",
+          category: "بيئة التعلم",
+          image: REAL_CHERRIES_PHOTOS.learningCorner,
+          desc: "أركان تعليمية مجهزة بحماية مبطنة للجدران ولوحات مصورة للأرقام والأشكال.",
+          alt: "ركن تعليمي مبطن بحماية إسفنجية ولوحات تعليم الأرقام والأشكال",
+        },
+      ],
+    },
+    gallery: {
+      tag: "معرض الصور الحقيقية",
+      title: "لمحة من حياة أطفالنا اليومية في Cherries",
+      subtitle: "صور واقعية غير معدلة تُبرز بهجة التعلم واللعب الجماعي داخل الحضانة.",
+      categories: ["الكل", "الفصول الدراسية", "اللعب الخارجي", "فريق العمل"],
+      clickToEnlarge: "اضغط على أي صورة لتكبيرها واستعراض التفاصيل",
+      items: [
+        {
+          title: "بهجة يومية وصداقات جميلة",
+          category: "الفصول الدراسية",
+          image: REAL_CHERRIES_PHOTOS.classroomActivity,
+          alt: "أطفال تشيريز يضحكون معاً في الفصل الدراسي",
+          caption: "تفاعل لغوي واجتماعي مميز وصداقات تنمو يومياً في فصولنا المبهجة.",
+        },
+        {
+          title: "لعب حركي وتطور بدني في الهواء الطلق",
+          category: "اللعب الخارجي",
+          image: REAL_CHERRIES_PHOTOS.outdoorPlay,
+          alt: "ألعاب حركية خارجية على العشب الأخضر",
+          caption: "ألعاب حركية ممتعة وآمنة على المسطحات الخضراء داخل كمبوند زايد ريجنسي.",
+        },
+        {
+          title: "رعاية فردية وأمان عاطفي",
+          category: "الفصول الدراسية",
+          image: REAL_CHERRIES_PHOTOS.toddlerSmile,
+          alt: "طفل يبتسم بسعادة في حضانة تشيريز",
+          caption: "اهتمام فردي وتشجيع مستمر يمنح الطفل الراحة والاطمئنان.",
+        },
+        {
+          title: "فريق المعلمات في حديقة الحضانة",
+          category: "فريق العمل",
+          image: REAL_CHERRIES_PHOTOS.teamGathering,
+          alt: "معلمات حضانة تشيريز في الحديقة الخارجية",
+          caption: "فريقنا التعليمي المتميز مجتمعاً في الحديقة الخارجية بالشيخ زايد.",
+        },
+        {
+          title: "بيئة آمنة مجهزة لحماية وتركيز الأطفال",
+          category: "الفصول الدراسية",
+          image: REAL_CHERRIES_PHOTOS.learningCorner,
+          alt: "ركن الحضانة المبطن لحماية الأطفال",
+          caption: "تجهيزات مبطنة آمنة وركن هادئ لتعلم المفاهيم الأولى والأرقام.",
         },
       ],
     },
@@ -386,6 +543,8 @@ export const CHERRIES_CONTENT = {
       title: "تعرف على فريقنا التعليمي",
       subtitle: "معلمات متخصصات يقدمن الرعاية والاهتمام بكل حب وصبر لمشاركة طفلك رحلته اليومية.",
       note: "يتم عرض الصور والمعلومات المعتمدة فقط، وسيتم إضافة إدارة الحضانة والكوادر تباعاً فور اعتمادها.",
+      teamPhotoTitle: "فريقنا التعليمي في زايد ريجنسي",
+      teamPhotoDesc: "صورة حقيقية لفريق عمل معلمات Cherries Edu House في الحديقة الخارجية للحضانة.",
       members: [
         {
           name: "ميس سلمى",
@@ -456,7 +615,12 @@ export const CHERRIES_CONTENT = {
         phonePlaceholder: "012 XXXX XXXX",
         programLabel: "الفصل المطلوب (اختياري)",
         programSelectPlaceholder: "اختر الفصل",
-        programs: ["Infants (الرضع)", "Juniors (الصغار)", "Preschool (ما قبل المدرسة)", "استفسار عام"],
+        programs: [
+          "Infants (الرضع)",
+          "Juniors (الصغار)",
+          "Preschool (ما قبل المدرسة)",
+          "استفسار عام",
+        ],
         preferredDateLabel: "تاريخ الزيارة المفضل (اختياري)",
         timeLabel: "أفضل وقت للتواصل معكم (اختياري)",
         timePlaceholder: "مثال: صباحاً، أو بعد الساعة 4 عصراً",
@@ -466,8 +630,10 @@ export const CHERRIES_CONTENT = {
         submitBtn: "إرسال طلب الزيارة",
         whatsappInstant: "أو تواصل فوراً عبر واتساب",
         successTitle: "تم استلام طلب الزيارة بنجاح!",
-        successMsg: "شكراً لاهتمامكم بـ Cherries Edu House. سيتواصل معكم فريق الإدارة قريباً لتأكيد موعد وتفاصيل الزيارة.",
-        whatsappRedirectNote: "للحصول على رد فوري، اضغط بالأسفل لفتح محادثة واتساب مباشرة مع كامل تفاصيل طلبك.",
+        successMsg:
+          "شكراً لاهتمامكم بـ Cherries Edu House. سيتواصل معكم فريق الإدارة قريباً لتأكيد موعد وتفاصيل الزيارة.",
+        whatsappRedirectNote:
+          "للحصول على رد فوري، اضغط بالأسفل لفتح محادثة واتساب مباشرة مع كامل تفاصيل طلبك.",
       },
     },
     location: {

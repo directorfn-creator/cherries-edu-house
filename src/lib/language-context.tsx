@@ -54,7 +54,10 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
         isAr: language === "ar",
       }}
     >
-      <div dir={language === "ar" ? "rtl" : "ltr"} className={language === "ar" ? "font-arabic" : "font-sans"}>
+      <div
+        dir={language === "ar" ? "rtl" : "ltr"}
+        className={language === "ar" ? "font-arabic" : "font-sans"}
+      >
         {children}
       </div>
     </LanguageContext.Provider>
